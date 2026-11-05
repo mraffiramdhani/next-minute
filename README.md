@@ -12,6 +12,16 @@ A to-do list that looks like a page in a notebook. Each line has **Start**, **En
 
 **[Download the Android APK](https://github.com/mraffiramdhani/next-minute/releases/latest)**
 
+## See it in 30 seconds
+
+<p align="center">
+  <a href="docs/promo/next-minute-short.mp4">
+    <img src="docs/promo/preview.gif" alt="A 30-second tour: typing a task and pressing Enter stamps the start time, ticking it stamps the end time and duration, a Still on it? reminder appears, then past days and the dark theme" width="240">
+  </a>
+</p>
+
+<p align="center"><a href="docs/promo/next-minute-short.mp4">Watch the full video with sound (MP4, 33 s)</a></p>
+
 ## Where the idea comes from
 
 Next Minute is based on the method in [How I Stop Procrastinating with ADHD | The Next Minute Method](https://www.youtube.com/watch?v=MJ4q25LGyXQ) by [Novie by the Sea](https://www.youtube.com/@novie-bythesea). Watch the video for the method itself. This app is a notebook page for following it on your phone.
