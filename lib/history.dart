@@ -234,15 +234,20 @@ class _DayCard extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Text(
-                  longDateLabel(parseDayKey(day)),
-                  style: TextStyle(fontSize: 20, color: nb.ink),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      longDateLabel(parseDayKey(day)),
+                      style: TextStyle(fontSize: 20, color: nb.ink),
+                    ),
+                    Text(
+                      '$done of ${tasks.length} done'
+                      '${formatTotal(tasks).isEmpty ? '' : ' · ${formatTotal(tasks)}'}',
+                      style: TextStyle(fontSize: 16, color: nb.fadedInk),
+                    ),
+                  ],
                 ),
-              ),
-              Text(
-                '$done of ${tasks.length} done'
-                '${formatTotal(tasks).isEmpty ? '' : ' · ${formatTotal(tasks)}'}',
-                style: TextStyle(fontSize: 16, color: nb.fadedInk),
               ),
               IconButton(
                 tooltip: 'Share',

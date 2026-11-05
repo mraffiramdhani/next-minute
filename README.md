@@ -2,6 +2,16 @@
 
 A to-do list that looks like a page in a notebook. Each line has **Start**, **End**, **Task** and **Action** columns, so you see when you started something and how long it took.
 
+<p align="center">
+  <img src="docs/screenshots/light.png" alt="Today's page in the light theme, with three finished tasks and their durations" width="250">
+  &nbsp;
+  <img src="docs/screenshots/dark.png" alt="The same page in the dark theme" width="250">
+  &nbsp;
+  <img src="docs/screenshots/past-days.png" alt="Past days, showing earlier pages with totals" width="250">
+</p>
+
+**[Download the Android APK](https://github.com/mraffiramdhani/next-minute/releases/latest)**
+
 ## Features
 
 - Press **Enter** on a task to stamp its start time. Tick the checkbox to stamp the end time.
